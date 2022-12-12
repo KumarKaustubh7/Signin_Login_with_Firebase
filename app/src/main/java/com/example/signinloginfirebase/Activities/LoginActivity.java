@@ -38,7 +38,7 @@ public class LoginActivity extends AppCompatActivity {
         btnsignin = findViewById(R.id.signinbtn);
 
         mAuth = FirebaseAuth.getInstance();
-        HomeActivity = new Intent(this,com.example.blogapp.Activities.HomeActivity.class);
+        HomeActivity = new Intent(this,com.example.signinloginfirebase.Activities.HomeActivity.class);
         loginPhoto = findViewById(R.id.login_photo);
 
 
