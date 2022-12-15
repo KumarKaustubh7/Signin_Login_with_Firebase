@@ -28,7 +28,7 @@ import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.UserProfileChangeRequest;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
-//import com.google.firebase.storage.UploadTask;
+import com.google.firebase.storage.UploadTask;
 
 import java.io.IOException;
 
@@ -159,7 +159,7 @@ public class RegisterActivity extends AppCompatActivity {
                             updateUserInfo(name, pickedImgUri, mAuth.getCurrentUser());
                         }
                         else {
-                            showMessage("Account creation failed" + task.getException().getMessage());
+                            showMessage("Account creation failed. Aaisi taisi is proj ki" + task.getException().getMessage());
                             regBtn.setVisibility(View.VISIBLE);
                             loadingProgress.setVisibility(View.INVISIBLE);
                         }
