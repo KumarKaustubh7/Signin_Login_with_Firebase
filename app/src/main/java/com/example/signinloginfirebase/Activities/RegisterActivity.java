@@ -159,7 +159,7 @@ public class RegisterActivity extends AppCompatActivity {
                             updateUserInfo(name, pickedImgUri, mAuth.getCurrentUser());
                         }
                         else {
-                            showMessage("Account creation failed. Aaisi taisi is proj ki" + task.getException().getMessage());
+                            showMessage("Account creation failed." + task.getException().getMessage());
                             regBtn.setVisibility(View.VISIBLE);
                             loadingProgress.setVisibility(View.INVISIBLE);
                         }
