@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="gold">#FFD700</color>
+
+    <color name="purple_500">#FFD700</color>
+    <color name="purple_700">#FFD700</color>
+    <color name="teal_200">#FFD700</color>
+    <color name="teal_700">#FFD700</color>
+    <color name="purple_200">#FFD700</color>
+
+
+
     <color name="orange">#FFA500</color>
     <color name="dark_orange">#FF8C00</color>
     <color name="dark_purple">#483D8B</color>
